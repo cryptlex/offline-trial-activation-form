@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Cryptlex - Offline Trial Activation</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top nav-color">
+            <a class="navbar-brand" href="#">Cryptlex</a>
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                </ul>
+            </div> -->
+        </nav>
+    </header>
+
+    <!-- Begin page content -->
+    <main role="main" class="container">
+        <h1 class="mt-5 mb-5 text-center">Offline Trial Activation</h1>
+        <div class="row justify-content-center">
+            <div class="col-6">
+                <p class="lead">Paste the offline trial activation request to generate the offline trial response. The
+                    offline trial response can be used to activate the trial, without any internet connection.</p>
+                <form method="post" id="offlineActivationForm" class="custom-validation-form" novalidate>
+                    <div class="form-group">
+                        <label for="product">Choose Product</label>
+                        <select id="product" class="form-control" name="product" required>
+                            <option value="PASTE_PRODUCT_ID" selected>Product1</option>
+                            <option value="PASTE_PRODUCT_ID">Product2</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="offlineRequestTextArea">Offline Trial Request</label>
+                        <textarea class="form-control" id="offlineRequestTextArea" rows="6" required name="offlineRequest"></textarea>
+                        <div class="invalid-feedback">
+                            Please provide a valid offline request.
+                        </div>
+                    </div>
+                    <button type="submit" id="submitBtn" class="btn btn-primary mb-2">Download Offline Response</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">Copyright ©
+                <script>document.write(new Date().getFullYear());</script> Cryptlex, LLC. All rights reserved.</span>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/file-saver@1.3.8/FileSaver.min.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

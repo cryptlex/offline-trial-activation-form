@@ -1,2 +1,3 @@
 # offline-trial-activation-form
-Offline trial activation web page
+
+You can host this web page to allow your customers to offline activate the product trial.
