@@ -1,6 +1,7 @@
 # offline-trial-activation-form
 
-You can host this web page to allow your customers to offline activate the product trial. [Demo](https://cryptlex.github.io/offline-trial-activation-form/)
+You can host this web page to allow your customers to offline activate the product trial. 
+## [Demo](https://cryptlex.github.io/offline-trial-activation-form/)
 
 You can easily update the theme of this web page as per your requirements.
 
